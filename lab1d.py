@@ -7,6 +7,12 @@
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1d.py
 
+name = "Kidus"
+name = name.upper()
+age = 18
+myStr = "How are you {}? Happy {}th birthday!".format(name, age)
+print(myStr)
+
 #TO-DO 1:
 #	Create a variable called "name" and assign it the value of your name.
 # Use the string method .upper() to convert the name to upper case.
