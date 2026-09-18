@@ -1,10 +1,24 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Kidus
+# Date: 9/18/2026
 # Purpose: Use arithmetic in python.
 # Usage: python3 lab1b.py
+
+num1 = input("Enter the first number: ");
+num2 = input("Enter the second number: ");
+print(type(num1))
+print(type(num2))
+
+num1 = int(num1)
+num2 = int(num2)
+
+print("num1 + num2 = ", num1 + num2)
+print("num1 - num2 = ", num1 - num2)
+print("num1 * num2 = ", num1 * num2)
+print("num1 / num2 = ", num1 / num2)
+print("num1 % num2 = ", num1 % num2)
 
 # TO-DO 1:
 #	Create a variable called "num1", take its value from user.
