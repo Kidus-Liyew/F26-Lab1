@@ -1,15 +1,29 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Kidus
+# Date: 9/18/2026
 # Purpose: Create a variable, check its type and print the variable.
 # Usage: python3 lab1a.py
+
+message = "Welcome to PRG101"
+print(message)
+print (type(message));
+newString = message+ "Python is future"
+print(newString)
+
+x = 10
+print(type(x))
+"""  This is a multi-line comment."""
+x = "hello";
+print(type(x))
+
 
 # TO DO 1: Creating and using varibales
 # create a variable called message.
 # Set the variable to equal to "Welcome to PRG101".
 # Print the variable message using print() statement.
+
 
 # TO DO 2: Checking the type of a varibale
 # Use the builtin type() function and print the type of this variable.
